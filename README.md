@@ -2,9 +2,7 @@
 This is a sample app for UCube SDK.
 
 ### Add the below line of code in your project's root level gradle.
-    maven {
-    url 'https://dl.bintray.com/saraswatinfotech/com.sil.ucubesdk'
-    }
+    maven { url 'https://jitpack.io' }
 
  e.g 
  ```
@@ -12,16 +10,16 @@ This is a sample app for UCube SDK.
   repositories {
           google()
           jcenter()
-          maven { url 'https://dl.bintray.com/saraswatinfotech/com.sil.ucubesdk'}
+          maven { url 'https://jitpack.io' }
         }
   }
   ```
 ### Add the below dependencies in the project's build.gradle 
-    implementation 'com.sil.ucubesdk:ucubesdk:2.0.8'
+    implementation 'com.github.sil-dev:UCubeSampleApplication:2.0.24'
 e.g
 ```
     dependencies {
-		implementation 'com.sil.ucubesdk:ucubesdk:2.0.8'
+		implementation 'com.github.sil-dev:UCubeSampleApplication:2.0.24'
 	}
  ```
 
