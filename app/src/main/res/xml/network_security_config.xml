@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">127.0.0.1</domain> <!-- the domain you are using for api network call -->
+        <domain includeSubdomains="true">10.101.10.73</domain> <!-- the domain you are using for api network call -->
+        <domain includeSubdomains="true">example.com</domain> <!-- the domain you are using for api network call -->
+    </domain-config>
+</network-security-config>

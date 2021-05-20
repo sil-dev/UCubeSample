@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_spacing_0dp">0dp</dimen>
+    <dimen name="app_spacing_2dp">2dp</dimen>
+    <dimen name="app_spacing_5dp">5dp</dimen>
+    <dimen name="app_spacing_10dp">10dp</dimen>
+    <dimen name="app_spacing_20dp">20dp</dimen>
+    <dimen name="elevation_10dp">10dp</dimen>
+    <dimen name="txtsize">16sp</dimen>
+</resources>
