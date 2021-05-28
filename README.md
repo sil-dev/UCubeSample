@@ -15,11 +15,13 @@ This is a sample app for UCube SDK.
   }
   ```
 ### Add the below dependencies in the project's build.gradle 
-    implementation 'com.github.sil-dev:UCubeSampleApplication:2.0.24'
+
+implementation 'com.github.sil-dev:UCube-SDK:2.0.24'
+
 e.g
 ```
     dependencies {
-		implementation 'com.github.sil-dev:UCubeSampleApplication:2.0.24'
+		implementation 'com.github.sil-dev:UCube-SDK:2.0.24'
 	}
  ```
 
