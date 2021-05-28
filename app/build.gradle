@@ -33,7 +33,10 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
 //    implementation 'com.sil.ucubesdk:ucubesdk:2.0.21'
-    implementation 'com.github.sil-dev:UCubeSampleApplication:2.0.24'
+    //implementation 'com.github.sil-dev:UCubeSampleApplication:2.0.24'
+   
+    //new version
+    implementation 'com.github.sil-dev:UCube-SDK:2.0.24'
 
     implementation 'com.android.support:recyclerview-v7:29.0.0'
 
