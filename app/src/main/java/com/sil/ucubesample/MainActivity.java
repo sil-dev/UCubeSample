@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             uCubeRequest.setPassword("1230");
             uCubeRequest.setRefCompany("MAHAGRAM");
             uCubeRequest.setMid("442000227364352");
-            uCubeRequest.setTid("42207333");
+            uCubeRequest.setTid("42207331");
             uCubeRequest.setImei("869798039905855");
             uCubeRequest.setTransactionId(trasactionId);
             uCubeRequest.setImsi("404277270869423");
