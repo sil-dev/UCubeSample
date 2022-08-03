@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <com.sil.ucubesample.customview.LoadingSpinner
+                <com.sil.ucubesampleapplication.customview.LoadingSpinner
                     android:id="@+id/imgSpinner"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
@@ -55,6 +55,5 @@
                     android:textSize="@dimen/txtsize" />
             </LinearLayout>
         </LinearLayout>
-
     </LinearLayout>
 </RelativeLayout>

@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.KalpeshTalkar:KRecyclerViewAdapter:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/40fa2876a1c6c0806b114988543a9907/jetified-KRecyclerViewAdapter-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/40fa2876a1c6c0806b114988543a9907/jetified-KRecyclerViewAdapter-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/40fa2876a1c6c0806b114988543a9907/jetified-KRecyclerViewAdapter-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/65ef849c13fbb050c3bdc832736601fe/jetified-KRecyclerViewAdapter-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/65ef849c13fbb050c3bdc832736601fe/jetified-KRecyclerViewAdapter-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/65ef849c13fbb050c3bdc832736601fe/jetified-KRecyclerViewAdapter-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47cf3cf9a81a788099595e16b64fcc01/jetified-KRecyclerViewAdapter-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47cf3cf9a81a788099595e16b64fcc01/jetified-KRecyclerViewAdapter-1.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47cf3cf9a81a788099595e16b64fcc01/jetified-KRecyclerViewAdapter-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a53ca6bfb5f8c830b13fd4ceb7dd293f/jetified-KRecyclerViewAdapter-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a53ca6bfb5f8c830b13fd4ceb7dd293f/jetified-KRecyclerViewAdapter-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a53ca6bfb5f8c830b13fd4ceb7dd293f/jetified-KRecyclerViewAdapter-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dda81129012a8fa49a5f89b9f85a909e/jetified-KRecyclerViewAdapter-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dda81129012a8fa49a5f89b9f85a909e/jetified-KRecyclerViewAdapter-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dda81129012a8fa49a5f89b9f85a909e/jetified-KRecyclerViewAdapter-1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.KalpeshTalkar/KRecyclerViewAdapter/1.0.0/a70c84475db89e9e0c9374b713cbfd1ebdead78e/KRecyclerViewAdapter-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

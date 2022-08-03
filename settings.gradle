@@ -1,2 +1,2 @@
-include ':app'
-rootProject.name='UCubeSample'
+include ':app', ':ucubesdk'
+rootProject.name='UCubeSampleApplication'

@@ -1,0 +1,121 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
+
+ext {
+
+    bintrayRepo = 'com.sil.ucubesdk' // Name of the Bintray repo you created
+    bintrayName = 'ucubesdk' // Bintray package name
+
+    publishedGroupId = 'com.sil.ucubesdk'
+    // Group ID of the SDK which will be added in implementation line of gradle
+    artifact = 'ucubesdk'
+    // Artifact ID of the SDK which will be added in implementation line of gradle
+    libraryVersion = '2.0.25'
+    // Version of the library you created in Bintray //2.0.17 source code not available. based on 2.0.16
+
+    libraryName = 'ucubesdk' // It is generally the module name
+    libraryDescription = 'The SDK is used to integrate the Ucube Device in your mobile Application'
+    // Small description of the library
+
+    organization = 'saraswatinfotech'
+
+    siteUrl = ''
+    gitUrl = ''
+
+    developerId = 'sildevelop'
+    developerName = 'Sil Sil'
+    developerEmail = 'sildev.andr@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+
+    //Bintray Credentials
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+    bintrayUsername = properties.getProperty('BINTRAY_USERNAME')
+    bintrayUserOrg = properties.getProperty('BINTRAY_ORG')
+    bintrayApiKey = properties.getProperty('BINTRAY_API_KEY')
+}
+
+/*afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
+                // Applies the component for the release build variant.
+                from components.release
+
+                // You can then customize attributes of the publication as shown below.
+                groupId = 'com.sil.ucubesdk'
+                artifactId = 'final'
+                version = '1.0'
+            }
+            // Creates a Maven publication called “debug”.
+            debug(MavenPublication) {
+                // Applies the component for the debug build variant.
+                from components.debug
+
+                groupId = 'com.sil.ucubesdk'
+                artifactId = 'final-debug'
+                version = '1.0'
+            }
+        }
+    }
+}*/
+
+android {
+    compileSdkVersion 32
+   // buildToolsVersion "29.0.0"
+
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 32
+        versionCode 2
+        versionName "2.0"
+        // buildConfigField "String","UCUBE_URL",'"http://10.101.10.73:9040/YouCloudMiddlewareIndCommon/"'
+        buildConfigField "String", "UCUBE_URL", '"https://app.youcloudpayment.in/sdk/"'
+        buildConfigField "String", "UCUBE_DEVICE_NAME", '"uCube"'
+        buildConfigField "String", "UCUBE_MDM_URL", '"https://mdm.youtransactor.com"'
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    useLibrary 'org.apache.http.legacy'
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'org.apache.commons:commons-io:1.3.2'
+    implementation 'commons-codec:commons-codec:20041127.091804'
+    implementation 'org.apache.commons:commons-lang3:3.5'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+}
+
+apply from: '../install.gradle'
+apply from: '../bintray.gradle'
+

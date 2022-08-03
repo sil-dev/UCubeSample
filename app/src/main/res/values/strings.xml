@@ -1,10 +1,9 @@
 <resources>
-    <string name="app_name">UCube Test Application</string>
+    <string name="app_name">UCubeSampleApplication</string>
     <string name="select_bluetooth_device">Select Bluetooth Device</string>
     <string name="scan_bluetooth">Scan Bluetooth</string>
     <string name="start_transaction">Start Transaction</string>
     <string name="check_status">Check Status</string>
-    <string name="void_">Void</string>
     <string name="transaction_status">Transaction Status</string>
     <string name="response_code">Response Code:</string>
     <string name="status">Status</string>

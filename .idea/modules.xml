@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UCubeSampleApplication.iml" filepath="$PROJECT_DIR$/.idea/modules/UCubeSampleApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/UCubeSampleApplication.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/UCubeSampleApplication.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/UCubeSampleApplication.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/UCubeSampleApplication.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/UCubeSampleApplication.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/UCubeSampleApplication.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/UCubeSampleApplication.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/UCubeSampleApplication.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ucubesdk/UCubeSampleApplication.ucubesdk.iml" filepath="$PROJECT_DIR$/.idea/modules/ucubesdk/UCubeSampleApplication.ucubesdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ucubesdk/UCubeSampleApplication.ucubesdk.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ucubesdk/UCubeSampleApplication.ucubesdk.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ucubesdk/UCubeSampleApplication.ucubesdk.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ucubesdk/UCubeSampleApplication.ucubesdk.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ucubesdk/UCubeSampleApplication.ucubesdk.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/ucubesdk/UCubeSampleApplication.ucubesdk.unitTest.iml" />
+    </modules>
+  </component>
+</project>
