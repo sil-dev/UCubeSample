@@ -129,13 +129,17 @@ public class UCubeManager {
 
 
     public boolean isBluetoothConnected(String bluetoothAddress) {
+
+        boolean isConnected = false;
+
         try {
+            Log.d(TAG, "isBluetoothConnected:With Bluetooth Address " + bluetoothAddress);
             if (bluetoothAddress == null) return false;
             if (BluetoothConnexionManager.getInstance().canConnect(bluetoothAddress)) {
-                BluetoothConnexionManager.getInstance().disconnect();
+                BluetoothConnexionManager.getInstance().connect();
                 return true;
             }
-            return false;
+            return true;
         } catch (Exception e) {
             e.printStackTrace();
             return false;

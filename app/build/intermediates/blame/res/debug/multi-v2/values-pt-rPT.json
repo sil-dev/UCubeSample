@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\SIL\\UCube-SDK-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rPT\\values-pt-rPT.xml",
+            "outputFile": "D:\\SIL\\Github\\UCubeSample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rPT\\values-pt-rPT.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Ankit Gupta\\.gradle\\caches\\transforms-2\\files-2.1\\17f874c08416526ce5b0920ea28b4b17\\core-1.1.0\\res\\values-pt-rPT\\values-pt-rPT.xml",

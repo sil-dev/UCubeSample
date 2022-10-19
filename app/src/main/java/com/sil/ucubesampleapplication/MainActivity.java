@@ -104,8 +104,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         tranxBtn.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
+                Log.d("onClick", "onClick: ");
                 Thread thread = new Thread(new Runnable() {
                     @Override
                     public void run() {

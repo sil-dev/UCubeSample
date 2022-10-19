@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\SIL\\UCube-SDK-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
+            "outputFile": "D:\\SIL\\Github\\UCubeSample\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Ankit Gupta\\.gradle\\caches\\transforms-2\\files-2.1\\2ab2b0227b3e10057e891037803df8e9\\appcompat-1.1.0\\res\\values-v25\\values-v25.xml",

@@ -1,23 +1,23 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.sil.ucubesampleapplication"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
+4    android:versionCode="2"
+5    android:versionName="2.0.25" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml
+8-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml
+9-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml
 10
 11    <!-- BLUETOOTH PERMISSION -->
 12    <!-- Request legacy Bluetooth permissions on older devices. -->
 13    <uses-permission android:name="android.permission.BLUETOOTH" />
-13-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:10:5-68
-13-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:10:22-65
+13-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:10:5-68
+13-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:10:22-65
 14    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-14-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:11:5-74
-14-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:11:22-71
+14-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:11:5-74
+14-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:11:22-71
 15    <!--
 16         Needed only if your app looks for Bluetooth devices.
 17             If your app doesn't use Bluetooth scan results to derive physical
@@ -25,48 +25,48 @@
 19             doesn't derive physical location.
 20    -->
 21    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
-21-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:16:5-73
-21-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:16:22-70
+21-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:16:5-73
+21-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:16:22-70
 22    <!--
 23      Needed only if your app makes the device discoverable to Bluetooth
 24      devices.
 25    -->
 26    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
-26-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:19:5-78
-26-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:19:22-75
+26-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:19:5-78
+26-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:19:22-75
 27    <!--
 28         Needed only if your app communicates with already-paired Bluetooth
 29           devices.
 30    -->
 31    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-31-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:22:5-76
-31-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:22:22-73
+31-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:22:5-76
+31-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:22:22-73
 32    <!-- bibo01 : hardware option -->
 33    <uses-feature
-33-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:24:5-87
+33-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:24:5-87
 34        android:name="android.hardware.bluetooth"
-34-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:24:19-60
+34-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:24:19-60
 35        android:required="false" />
-35-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:24:61-85
+35-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:24:61-85
 36    <uses-feature
-36-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:25:5-90
+36-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:25:5-90
 37        android:name="android.hardware.bluetooth_le"
-37-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:25:19-63
+37-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:25:19-63
 38        android:required="false" />
-38-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:25:64-88
+38-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:25:64-88
 39
 40    <uses-permission android:name="android.permission.INTERNET" />
-40-->[:ucubesdk] D:\SIL\UCube-SDK-master\ucubesdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-67
-40-->[:ucubesdk] D:\SIL\UCube-SDK-master\ucubesdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-64
+40-->[:ucubesdk] D:\SIL\Github\UCubeSample\ucubesdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-67
+40-->[:ucubesdk] D:\SIL\Github\UCubeSample\ucubesdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-64
 41    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-41-->[:ucubesdk] D:\SIL\UCube-SDK-master\ucubesdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-79
-41-->[:ucubesdk] D:\SIL\UCube-SDK-master\ucubesdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-76
+41-->[:ucubesdk] D:\SIL\Github\UCubeSample\ucubesdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-79
+41-->[:ucubesdk] D:\SIL\Github\UCubeSample\ucubesdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-76
 42    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-42-->[:ucubesdk] D:\SIL\UCube-SDK-master\ucubesdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-78
-42-->[:ucubesdk] D:\SIL\UCube-SDK-master\ucubesdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-75
+42-->[:ucubesdk] D:\SIL\Github\UCubeSample\ucubesdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-78
+42-->[:ucubesdk] D:\SIL\Github\UCubeSample\ucubesdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-75
 43    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE " />
-43-->[:ucubesdk] D:\SIL\UCube-SDK-master\ucubesdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-80
-43-->[:ucubesdk] D:\SIL\UCube-SDK-master\ucubesdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:22-77
+43-->[:ucubesdk] D:\SIL\Github\UCubeSample\ucubesdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-80
+43-->[:ucubesdk] D:\SIL\Github\UCubeSample\ucubesdk\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:22-77
 44    <!--
 45    &lt;!&ndash;Before Android 12 (but still needed location, even if not requested)&ndash;&gt;
 46    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -78,51 +78,51 @@
 52    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
 53    -->
 54    <application
-54-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:36:5-58:19
+54-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:36:5-58:19
 55        android:allowBackup="true"
-55-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:37:9-35
+55-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:37:9-35
 56        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 56-->[androidx.core:core:1.1.0] C:\Users\Ankit Gupta\.gradle\caches\transforms-2\files-2.1\17f874c08416526ce5b0920ea28b4b17\core-1.1.0\AndroidManifest.xml:24:18-86
 57        android:debuggable="true"
 58        android:icon="@mipmap/ic_launcher"
-58-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:38:9-43
+58-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:38:9-43
 59        android:label="@string/app_name"
-59-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:39:9-41
+59-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:39:9-41
 60        android:networkSecurityConfig="@xml/network_security_config"
-60-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:40:9-69
+60-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:40:9-69
 61        android:roundIcon="@mipmap/ic_launcher_round"
-61-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:41:9-54
+61-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:41:9-54
 62        android:supportsRtl="true"
-62-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:42:9-35
+62-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:42:9-35
 63        android:theme="@style/AppTheme"
-63-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:44:9-40
+63-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:44:9-40
 64        android:usesCleartextTraffic="true" >
-64-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:43:9-44
+64-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:43:9-44
 65        <uses-library
-65-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:46:9-48:40
+65-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:46:9-48:40
 66            android:name="org.apache.http.legacy"
-66-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:47:13-50
+66-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:47:13-50
 67            android:required="false" />
-67-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:48:13-37
+67-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:48:13-37
 68
 69        <activity android:name="com.sil.ucubesampleapplication.MainActivity" />
-69-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:50:9-72
-69-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:50:19-70
+69-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:50:9-72
+69-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:50:19-70
 70        <activity
-70-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:51:9-57:20
+70-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:51:9-57:20
 71            android:name="com.sil.ucubesampleapplication.ScanActivity"
-71-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:51:19-70
+71-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:51:19-70
 72            android:exported="true" >
-72-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:52:13-36
+72-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:52:13-36
 73            <intent-filter>
-73-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:53:13-56:29
+73-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:53:13-56:29
 74                <action android:name="android.intent.action.MAIN" />
-74-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:54:17-69
-74-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:54:25-66
+74-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:54:17-69
+74-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:54:25-66
 75
 76                <category android:name="android.intent.category.LAUNCHER" />
-76-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:55:17-77
-76-->D:\SIL\UCube-SDK-master\app\src\main\AndroidManifest.xml:55:27-74
+76-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:55:17-77
+76-->D:\SIL\Github\UCubeSample\app\src\main\AndroidManifest.xml:55:27-74
 77            </intent-filter>
 78        </activity>
 79    </application>

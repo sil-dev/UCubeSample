@@ -11,7 +11,7 @@ ext {
     // Group ID of the SDK which will be added in implementation line of gradle
     artifact = 'ucubesdk'
     // Artifact ID of the SDK which will be added in implementation line of gradle
-    libraryVersion = '2.0.25'
+    libraryVersion = '2.0.26'
     // Version of the library you created in Bintray //2.0.17 source code not available. based on 2.0.16
 
     libraryName = 'ucubesdk' // It is generally the module name
@@ -74,8 +74,8 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 32
-        versionCode 3
-        versionName "2.0.25"
+        versionCode 4
+        versionName "2.0.26"
         // buildConfigField "String","UCUBE_URL",'"http://10.101.10.73:9040/YouCloudMiddlewareIndCommon/"'
         buildConfigField "String", "UCUBE_URL", '"https://app.youcloudpayment.in/sdk/"'
         buildConfigField "String", "UCUBE_DEVICE_NAME", '"uCube"'

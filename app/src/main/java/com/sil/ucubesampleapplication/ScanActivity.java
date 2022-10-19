@@ -199,15 +199,15 @@ public class ScanActivity extends AppCompatActivity {
                 // Bluetooth is not enabled :)
                 showToast("Kindly enable Bluetooth");
             } else {
-                BluetoothManager manager = (BluetoothManager) this.getSystemService(BLUETOOTH_SERVICE);
+                BluetoothManager manager = (BluetoothManager) getApplicationContext().getSystemService(BLUETOOTH_SERVICE);
                 if (manager != null) {
                     Set<BluetoothDevice> pairedDevices = mBluetoothAdapter.getBondedDevices();
                     List<BluetoothDevice> connectedBTDevice = new ArrayList<>();
                     if (pairedDevices.size() > 0) {
                         for (BluetoothDevice bt : pairedDevices) {
-                            if (bt.getType() == 3) {
+                            //if (bt.getType() == 3) {
                                 connectedBTDevice.add(bt);
-                            }
+                           // }
                         }
                     }
 
